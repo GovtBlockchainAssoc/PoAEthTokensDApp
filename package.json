@@ -1,0 +1,41 @@
+{
+    "name": "blankts",
+    "version": "0.0.0",
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true
+        },
+        "plugins": [
+            "react"
+        ]
+    },
+    "description": "blankts",
+    "scripts": {
+        "build": "tsc --build && webpack-cli app.tsx --config webpack-config.js",
+        "build-old": "tsc --build",
+        "clean": "tsc --build --clean",
+        "start": "node server"
+    },
+    "author": {
+        "name": ""
+    },
+    "devDependencies": {
+        "@types/node": "^13.9.1",
+        "eslint": "^6.8.0",
+        "eslint-plugin-react": "^7.19.0",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "path": "^0.12.7",
+        "react": "^16.13.0",
+        "react-dom": "^16.13.0",
+        "ts-loader": "^6.2.1",
+        "webpack": "^4.42.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "engines": {
+        "node": "^8.0.0"
+    }
+}
