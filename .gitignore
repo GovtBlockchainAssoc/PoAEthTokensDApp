@@ -7,7 +7,6 @@
 /dist
 /node_modules
 /obj/Debug
-/app.js
-/app.js.map
 /server.js
-/server.js.map
+/src/app.js
+*.map

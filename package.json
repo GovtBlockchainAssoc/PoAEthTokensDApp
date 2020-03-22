@@ -12,7 +12,7 @@
     },
     "description": "blankts",
     "scripts": {
-        "build": "tsc --build && webpack-cli app.tsx --config webpack-config.js",
+        "build": "tsc --build && webpack-cli src/app.tsx --config webpack-config.js",
         "build-old": "tsc --build",
         "clean": "tsc --build --clean",
         "start": "node server"
@@ -22,8 +22,6 @@
     },
     "devDependencies": {
         "@types/node": "^13.9.1",
-        "eslint": "^6.8.0",
-        "eslint-plugin-react": "^7.19.0",
         "typescript": "^3.8.3"
     },
     "dependencies": {
