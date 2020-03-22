@@ -21,11 +21,14 @@
         "name": ""
     },
     "devDependencies": {
-        "@types/node": "^13.9.1",
         "typescript": "^3.8.3"
     },
     "dependencies": {
+        "@material-ui/core": "^4.9.7",
+        "@material-ui/icons": "^4.9.1",
+        "@material-ui/styles": "^4.9.6",
         "express": "^4.17.1",
+        "mui-datatables": "^2.14.0",
         "path": "^0.12.7",
         "react": "^16.13.0",
         "react-dom": "^16.13.0",
